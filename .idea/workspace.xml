@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60b38cc-caf2-464f-9fc6-7da197b35094" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/useinsider/api/dto/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/useinsider/api/dto/PetDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/useinsider/api/dto/TagDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/useinsider/utils/WebDriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/useinsider/utils/WebDriverUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/useinsider/EpicUseInsider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/useinsider/EpicUseInsider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/useinsider/TestExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/useinsider/TestExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/useinsider/TestUseInsider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/useinsider/TestUseInsider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/useinsider/utils/WebDriverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/useinsider/utils/WebDriverUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/useinsider/TestExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/useinsider/TestExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/useinsider/pages/CareerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/useinsider/pages/CareerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/useinsider/pages/CareerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/useinsider/pages/CareerPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/useinsider/TestUseInsider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/useinsider/TestUseInsider.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,13 +41,16 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Olha_Osychanska\IdeaProjects\useinsider\drivers" />
       <recent name="C:\Users\Olha_Osychanska\IdeaProjects\useinsider" />
       <recent name="C:\Users\Olha_Osychanska\IdeaProjects\useinsider\src\main\java\com\useinsider" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.useinsider.api" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.useinsider.core" />
@@ -67,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestUseInsider">
+  <component name="RunManager" selected="TestNG.TestApi.pet">
     <configuration name="C:/Users/Olha_Osychanska/IdeaProjects/useinsider/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="useinsider" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -98,6 +99,51 @@
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApi.pet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="useinsider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.useinsider.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.useinsider" />
+      <option name="MAIN_CLASS_NAME" value="com.useinsider.api.TestApi" />
+      <option name="METHOD_NAME" value="pet" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApi.pet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="useinsider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.useinsider.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.useinsider" />
+      <option name="MAIN_CLASS_NAME" value="com.useinsider.api.TestApi" />
+      <option name="METHOD_NAME" value="pet" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,7 +206,7 @@
       <module name="useinsider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.useinsider.*" />
+          <option name="PATTERN" value="com.useinsider.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,13 +231,16 @@
     <list>
       <item itemvalue="TestNG.TestUseInsider" />
       <item itemvalue="TestNG.C:/Users/Olha_Osychanska/IdeaProjects/useinsider/testng.xml" />
+      <item itemvalue="TestNG.TestApi.pet" />
+      <item itemvalue="TestNG.TestApi.pet (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestApi.pet" />
+        <item itemvalue="TestNG.TestApi.pet (1)" />
         <item itemvalue="TestNG.TestUseInsider" />
         <item itemvalue="TestNG.C:/Users/Olha_Osychanska/IdeaProjects/useinsider/testng.xml" />
         <item itemvalue="TestNG.C:/Users/Olha_Osychanska/IdeaProjects/useinsider/testng.xml" />
-        <item itemvalue="TestNG.TestUseInsider" />
       </list>
     </recent_temporary>
   </component>
@@ -218,5 +267,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/useinsider/core/AbstractTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

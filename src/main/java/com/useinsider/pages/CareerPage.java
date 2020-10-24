@@ -1,11 +1,8 @@
 package com.useinsider.pages;
 
 import com.useinsider.core.AbstractPage;
-import net.thucydides.core.annotations.findby.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 import java.util.Optional;
