@@ -1,0 +1,5 @@
+com\useinsider\core\AbstractPage.class
+com\useinsider\core\AbstractTest.class
+com\useinsider\utils\DriverSetter.class
+com\useinsider\pages\HomePage.class
+com\useinsider\utils\ClassProperties.class
