@@ -31,11 +31,6 @@ public class TestExecutor extends AbstractTest {
             Assert.assertTrue(careerPage.getJobsCount() > 0);
         }
 
-        void verifyJobsList(final String department, final String office){
-            verifyPositions(department);
-            verifyDepartmens(department);
-            verifyLocations(office);
-        }
 
         void verifyPositions(final String department){
             List <String> positionList = careerPage.getPositionList();

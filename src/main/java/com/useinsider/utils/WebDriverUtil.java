@@ -26,10 +26,6 @@ public class WebDriverUtil {
             .add(");").toString();
 
     public static WebDriver getDriver() {
-//        if (driver == null){
-//            System.setProperty("webdriver.chrome.driver", userDir + "\\drivers\\chromedriver_win32\\chromedriver.exe");
-//            driver = new ChromeDriver();
-//        }
         return driver;
     }
 
