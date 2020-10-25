@@ -26,10 +26,10 @@ public abstract class AbstractTest {
     }
 
 
-
+    @Parameters("browser")
     @BeforeTest()
-    public void setUp() {
-        WebDriverUtil.createInstance("chrome");
+    public void setUp(String browser) {
+        WebDriverUtil.createInstance(browser);
         getDriver().manage().window().maximize();
         getDriver().manage().deleteAllCookies();
     }

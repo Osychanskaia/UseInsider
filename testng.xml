@@ -8,11 +8,11 @@
         </classes>
     </test>
 
-<!--    <test name="Chrome">-->
-<!--        <parameter name="browser" value="chrome"></parameter>-->
-<!--        <classes>-->
-<!--            <class name="com.useinsider.TestUseInsider">-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.useinsider.TestUseInsider">
+            </class>
+        </classes>
+    </test>
 </suite>
